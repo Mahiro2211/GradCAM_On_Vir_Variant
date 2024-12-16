@@ -3,7 +3,7 @@
 A GradCAM automatic script to visualize the model result
 # How to adjust your XXXFormer in GradCam
 ## Please ensure that your model is in a proper format.
-<p>If the transformer you apply into is a swin'-like transformer(No Class Token) or ViT-like (Have a Class token)
+<p>If the transformer you apply into is a swin'-like transformer(No Class Token) or ViT-like (Class token)
  </p>
  <p>The shape of the tensor may look like <em>[Batch,49,768]</em> then you should deal with your model with the following steps to avoid some terrible <strong>RuntimeError</strong>
  </p>
