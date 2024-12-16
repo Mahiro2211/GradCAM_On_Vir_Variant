@@ -50,9 +50,7 @@ just set up your image file and run these two scripts!!
 
 ![Result](https://github.com/Mahiro2211/GradCAM_Automation/assets/130811701/4fb5c2df-da8c-4748-9a28-7bf39f3d8b1b)
 
-
-### Param you need to Pay attention
-
+# Adjust these following options
 ```python
 parser.add_argument('--path', default='./image', help='the path of image')
 parser.add_argument('--method', default='all', help='the method of GradCam can be specific ,default all')
